@@ -13,8 +13,8 @@ npm install --save @chriscodesthings/rgb-color-yiq-value
 ```js
 import isString from '@chriscodesthings/rgb-color-yiq-value';
 
-console.log(rgbYIQValue(102,153,255));
-// => 149.379
+console.log(rgbYIQValue(100, 149, 237)); // cornflowerblue
+// => 144.381
 ```
 
 ## Syntax
