@@ -1,15 +1,15 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/rgb-color-yiq-value",
   "version": "0.1.0",
-  "description": "npm package template",
+  "description": "Calculate the YIQ value of a color in RGB format",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "rgb",
+    "color",
+    "yiq"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/rgb-color-yiq-value.git"
   },
   "main": "index.js",
   "type": "module",
@@ -23,7 +23,7 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/rgb-color-yiq-value/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
