@@ -13,19 +13,19 @@ npm install --save @chriscodesthings/rgb-color-yiq-value
 ```js
 import isString from '@chriscodesthings/rgb-color-yiq-value';
 
-console.log(rgbYIQValue(100, 149, 237)); // cornflowerblue
+console.log(rgbYIQValue([100, 149, 237])); // cornflowerblue
 // => 144.381
 ```
 
 ## Syntax
 
 ```js
-rgbYIQValue(r, g, b);
+rgbYIQValue([r, g, b]);
 ```
 
 ### Parameters
 
-- *r, g, b*: red green and blue color components
+- *r, g, b*: red green and blue color components. If an alpha value is present, it is ignored.
 
 ### Return Value
 
